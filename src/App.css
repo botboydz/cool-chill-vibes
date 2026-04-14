@@ -40,10 +40,10 @@
 .read-the-docs {
   color: #888;
 }
-body {
-  cursor: url("/snow-default.png"), auto;
+html, body {
+  cursor: url("/snow-cursor.png") 16 16, auto !important;
 }
 
-button, a {
-  cursor: url("/snow-pointer.png"), pointer;
+button, a, * {
+  cursor: url("/snow-pointer.png") 16 16, pointer !important;
 }
